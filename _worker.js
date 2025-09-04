@@ -6,7 +6,7 @@ import { connect } from "cloudflare:sockets";
 const rootDomain = "aron.my.id"; // Ganti dengan domain utama kalian
 const serviceName = "bun
 "; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiKey = "lXgCelj5zEvpLsvnphMbmpy1V3bgjmW0seQvTCPq"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "dedysulaeman846@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "89eee69086e2a807850ae4823409d4b2"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "b78bbbe91041b254abfa2711c413330d"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
