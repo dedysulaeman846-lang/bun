@@ -4,8 +4,7 @@ import { connect } from "cloudflare:sockets";
 
 // Variables
 const rootDomain = "aron.my.id"; // Ganti dengan domain utama kalian
-const serviceName = "bun
-"; // Ganti dengan nama workers kalian
+const serviceName = "bun"; // Ganti dengan nama workers kalian
 const apiKey = "lXgCelj5zEvpLsvnphMbmpy1V3bgjmW0seQvTCPq"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "dedysulaeman846@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "89eee69086e2a807850ae4823409d4b2"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
@@ -15,7 +14,7 @@ let proxyIP = "";
 let cachedProxyList = [];
 
 // Constant
-const APP_DOMAIN = `${serviceName}.${rootDomain}`;
+const APP_DOMAIN = `${bun}.${aron.my.id}`;
 const PORTS = [443, 80];
 const PROTOCOLS = [reverse("najort"), reverse("sselv"), reverse("ss")];
 const KV_PROXY_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyList.json";
